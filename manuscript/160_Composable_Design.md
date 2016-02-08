@@ -210,7 +210,7 @@ public class CompanyPolicies : IDisposable
 
 **Benjamin:** Huh? I thought this is what we were aiming at.
 
-**Johnny:** Yes, with the exception of the `Dispose()` method. Look closely at the `CompanyPolicies` class. it is changed so that it is not responsible for creating a repository for itself, but it still disposes of it. This is could cause problems because `CompanyPolicies` instance does not have any right to assume it is the only object that is using the repository. If so, then it cannot determine the moment when the repository becomes unnecessary and can be safely disposed of.
+**Johnny:** Yes, with the exception of the `Dispose()` method. Look closely at the `CompanyPolicies` class. It is changed so that it is not responsible for creating a repository for itself, but it still disposes of it. This is could cause problems because `CompanyPolicies` instance does not have any right to assume it is the only object that is using the repository. If so, then it cannot determine the moment when the repository becomes unnecessary and can be safely disposed of.
 
 **Benjamin:** Ok, I get the theory, but why is this bad in practice? Can you give me an example?
 
