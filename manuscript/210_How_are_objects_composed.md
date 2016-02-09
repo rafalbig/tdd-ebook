@@ -56,10 +56,10 @@ How does a sender obtain a reference to a recipient (i.e. how connections are ma
 
 There are few ways this can happen, each of them useful in certain circumstances. These ways are:
 
-1. Receive as constructor parameter
-2. Receive inside a message (i.e. as a method parameter)
-3. Receive in response to message (i.e. as method return value)
-4. Register a recipient with already created sender
+1. Receive as constructor parameter.
+2. Receive inside a message (i.e. as a method parameter).
+3. Receive in response to message (i.e. as method return value).
+4. Register a recipient with already created sender.
 
 Let's have a closer look at what each of them is about and which one to choose in what circumstances. 
 
